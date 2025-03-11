@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Problem Solvers Caffe (PS Caffe)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniagiri21/ps_cafe.git"
+  },
+  "author": "Sonia Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniagiri21/ps_cafe/issues"
+  },
+  "homepage": "https://github.com/soniagiri21/ps_cafe#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
